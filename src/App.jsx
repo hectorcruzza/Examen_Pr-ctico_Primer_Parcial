@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import { AuthProvider } from "./context/authContext";
+import { AuthProvider, useAuth } from "./context/authContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Login from "./components/Login";
 import Inicio from "./components/Inicio";
-import Empleados from "./components/Empleados/Empleados";
-import Inventario from "./components/Inventario/Inventario";
+import Empleados from "./components/Empleados";
+import Inventario from "./components/Inventario";
 import NavBar from "./components/NavBar";
 
 export default function App() {
