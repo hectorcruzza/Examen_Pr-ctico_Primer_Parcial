@@ -24,7 +24,7 @@ export default function Inventario() {
 
   return (
     <div>
-      <h2 className="text-2xl mb-4">Inventario</h2>
+      <h2 className="text-2xl font-semibold mb-4">Inventario</h2>
       <InventarioTable
         productos={productos}
         onSelect={setProductoSeleccionado}

@@ -24,7 +24,7 @@ export default function Empleados() {
 
   return (
     <div>
-      <h2 className="text-2xl mb-4">Gestión de Empleados</h2>
+      <h2 className="text-2xl font-semibold mb-4">Gestión de Empleados</h2>
       <EmpleadosTable
         empleados={empleados}
         onSelect={setEmpleadoSeleccionado}
